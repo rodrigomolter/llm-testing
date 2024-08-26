@@ -11,13 +11,13 @@ This repository has the purpose of learning and pratice LLM Testing.
 ## 📋 Pre-requirements
 
 - [Python 3.x](https://www.python.org/downloads/) (I've used version `3.11.2` while making this project)
-- [Ollama](https://ollama.com/) (Optional)
+- [Ollama](https://ollama.com/)
 
-## 🦙 Ollama
+## 🦙 LLM Deployment
 
-For fast deploy of an LLM, I've used [Ollama](https://ollama.com/) to run pre-builds LLMs.
+1. Install [Ollama](https://ollama.com/).
 
-The tests were performed in the [qwen2 1.5B](https://ollama.com/library/qwen2:1.5b) LLM.
+2. Start the LLM, in this case I'm using [qwen2 1.5B](https://ollama.com/library/qwen2:1.5b).
 
 ```bash
 ollama run qwen2:1.5b
@@ -25,7 +25,7 @@ ollama run qwen2:1.5b
 
 ## 🌲 Virtual Environment
 
-Run `python -m venv envname` to make a new virtual environment, e.g.:
+1. Run `python -m venv envname` to make a new virtual environment:
 
 ```bash
 python -m venv venv
